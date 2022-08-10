@@ -1,7 +1,7 @@
 function chkDate(){
     const date = new Date();
-    if (date.getHours() === 0 && date.getMinutes() === 0){ return true; }
-    else { return false; }
+    if (date.getHours() == 0 && date.getMinutes() == 0) return true;
+    return false;
 }
 function getDate(){
     const date = new Date();

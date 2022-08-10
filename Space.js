@@ -1,11 +1,15 @@
-const { path } = require('./config.json');
 const chkdsk = require('check-disk-space').default;
+const { path , connection } = require('./config.json');
+const { send } = require('./WebSocket');
+const { log } = require('./Utils');
 
 function chkfunc(){
     chkdsk(path).then((diskSpace) => {
-        // const diskPath = diskSpace.diskPath;
-        // const diskFree = diskSpace.free;
-        // const diskSize = diskSpace.size;
+        log("Pozostało miejsca na " + diskSpace.diskPath + " - " + freeSpace(diskSpace.free, diskSpace.size).toFixed(2) + " %");
+        send("Na: " + connection.hostname + " Pozostało: " + freeSpace(diskSpace.free, diskSpace.size).toFixed(2) + " %");
+        // socket.send(diskSpace.diskPath);
+        // socket.send(diskSpace.free);
+        // socket.send(diskSpace.size);
         // let busy = diskSpace.size - diskSpace.free;
         
         // INFO:
@@ -17,6 +21,10 @@ function chkfunc(){
         // saved in bytes
         return true;
     });
+}
+
+function freeSpace(free, size){
+    return (free / size) * 100;
 }
 
 // function ByteConv(number){
