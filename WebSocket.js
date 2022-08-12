@@ -4,7 +4,7 @@ const { connection } = require('./config.json');
 var socket;
 let flag = false;
 function send(text){
-    if(!flag) return log("Nie można wysłać - Rozłączono");
+    if(!flag) return log("Nie można wysłać - Rozłączono.");
     socket.send(text);
 }
 function connect () {
@@ -21,7 +21,7 @@ function connect () {
             socket = undefined;
         });
         socket.on('close', () => {
-            log("Rozłączono");
+            log("Rozłączono.");
             flag = false;
             socket = undefined;
         });
