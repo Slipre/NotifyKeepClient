@@ -1,8 +1,8 @@
 {
     "connection": {
-        "hostname": "nazwa_klienta1",
+        "hostname": "clientname",
         "server_ip": "localhost",
-        "port": "6669"
+        "port": "6969"
     },
     "path": "C:/"
 }

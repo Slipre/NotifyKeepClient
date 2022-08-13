@@ -1,6 +1,6 @@
 function chkDate(){
     const date = new Date();
-    if (date.getHours() == 0 && date.getMinutes() == 0) return true;
+    if (date.getHours() == 23 && date.getMinutes() == 50) return true;
     return false;
 }
 function getDate(){
