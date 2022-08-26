@@ -4,9 +4,9 @@ function log(text) {
     console.log(welcome + text);
 }
 function Setup(){
-    console.log("======START======");
+    console.log('\x1b[36m%s', "======START======");
     console.log("==[NOTIFYKEEPC]==");
-    console.log("=================");
+    console.log("=================", '\x1b[0m');
     log("Praca w tle rozpoczęta...");
     log("Życzę miłego dnia i smacznej Kawusi :)");
 }  
