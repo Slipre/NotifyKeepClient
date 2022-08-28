@@ -22,7 +22,7 @@ Easy multi-platform notificator script about disk space for *Node.js*.
 "connection": {
         "hostname": "name_of_that_client",
         "server_ip": "0.0.0.0",
-        "port": "6969"
+        "port": "0000"
     }
 ```
 
