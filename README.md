@@ -32,10 +32,10 @@ Easy multi-platform notificator script about disk space for *Node.js*.
 
 #### Windows:
 ```json
-    "path": "C:/folder/subfolder"
+"path": "C:/"
 ```
 
 #### Linux:
 ```json
-    "path": "/mnt/mygames"
+"path": "/"
 ```

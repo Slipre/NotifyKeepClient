@@ -1,5 +1,5 @@
 {
-  "name": "notifykeepclient",
+  "name": "NotifyKeepClient",
   "version": "1.0.0",
   "description": "Usługa sprawdzająca miejsce na dysku",
   "main": "Main.js",
@@ -15,7 +15,7 @@
   "author": "Przemysław 'JokeR' Śliwa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DirtyHeroine/NotifyKeepServer/issues"
+    "url": "https://github.com/DirtyHeroine/NotifyKeepClient/issues"
   },
-  "homepage": "https://github.com/DirtyHeroine/NotifyKeepServer#readme"
+  "homepage": "https://github.com/DirtyHeroine/NotifyKeepClient#readme"
 }
