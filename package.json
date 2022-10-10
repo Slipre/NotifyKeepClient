@@ -5,17 +5,17 @@
   "main": "Main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DirtyHeroine/NotifyKeepClient.git"
+    "url": "git+https://github.com/Slipre/NotifyKeepClient.git"
   },
   "dependencies": {
     "check-disk-space": "^3.3.1",
     "ws": "^8.8.1"
   },
   "keywords": ["notifykeep","keepnotify", "notifykeepclient","notify","node","nodejs"],
-  "author": "Przemysław 'JokeR' Śliwa",
+  "author": "Przemysław 'Slipre' Śliwa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DirtyHeroine/NotifyKeepClient/issues"
+    "url": "https://github.com/Slipre/NotifyKeepClient/issues"
   },
-  "homepage": "https://github.com/DirtyHeroine/NotifyKeepClient#readme"
+  "homepage": "https://github.com/Slipre/NotifyKeepClient#readme"
 }
